@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+     var rows = 10;
+    //  this loop used to iterate or slice according to the condition
+     for (let i = 0; i < rows; i++) {
+        //  this loop used to print space 
+        for (let k = 1; k <= i ; k++) {
+            document.write("&nbsp");
+        }
+        // this loop used to print star by the condtition on i as rows also j used and print it on one line
+        for (let j = 1; j < (rows-i); j++) {
+            document.write(j );
+        }
+        // this break tag used to break that line from loop j and print the pyr
+       document.write("<br>");
+    }
+
+
+    </script>
+</body>
+</html>
