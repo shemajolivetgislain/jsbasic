@@ -37,7 +37,6 @@ course.forEach(function subject(sub) {
 })
 
 // 4th method using map method
-
 listCourse = course.map(function(subject) {
     return subject.credite
 })
